@@ -17,7 +17,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: nigelpoulton/acg-web:0.1
+      - image: docker.io/st0n1/acg-kubernetes-webapp
         name: web-ctr
         ports:
         - containerPort: 8080
